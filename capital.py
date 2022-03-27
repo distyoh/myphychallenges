@@ -17,3 +17,5 @@ def cap_func(inputter):
 print(cap_func(input()))
 
 #by distyoh. trying python 2022
+#input = CATS and AND*DOGS are%awesome
+#output= CatsAndAndDogsAreAwesome
