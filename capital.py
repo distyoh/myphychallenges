@@ -1,7 +1,7 @@
-def cap_func(lempar):
-    inputdata = lempar
+def cap_func(inputter):
+    inputdata = inputter
     newword = ''
-    data = ''
+    out = ''
     for eachwords in inputdata:
         if eachwords.isalpha():
             newword += eachwords
@@ -10,9 +10,9 @@ def cap_func(lempar):
 
     newdata = newword.split()
     for words in newdata:
-        data += words.title()
+        out += words.title()
 
-    return data
+    return out
 
 print(cap_func(input()))
 
